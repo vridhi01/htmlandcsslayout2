@@ -67,7 +67,7 @@
                </div>
                <div class="footer">
                   <div class="copyright">
-                     <p class="copyrighttext">  Copyright © Your Website 2014</p>
+                     <p class="copyrighttext">Copyright © Your Website 2014</p>
                   </div>
                </div>
             </div>
