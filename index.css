@@ -1,144 +1,200 @@
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    body {
-        background-color: #fff;
-    }
-    
-    .navigation {
-        background-color: #000000e6;
-        padding: 15px 0px;
-    }
-    
-    .stylenavigation {
-        margin: 0 auto;
-        width: 91%;
-    }
-    
-    .stylenavigation li {
-        list-style-type: none;
-        display: inline-block;
-        margin-right: 18px;
-    }
-    
-    .stylenavigation a {
-        text-decoration: none;
-        font-family: sans-serif;
-        color: #808080d9;
-    }
-    
-    .navigationlink1 {
-        font-size: 18px;
-    }
-    
-    .navigationlink2 {
-        font-size: 15px;
-    }
-    
-    .navigationlink3 {
-        font-size: 15px;
-    }
-    
-    .navigationlink4 {
-        font-size: 15px;
-    }
-    
-    .middlediv {
-        background-color: #fff;
-    }
-    
-    .innerdiv {
-        margin: 0 auto;
-        width: 90%;
-    }
-    
-    .maindiv {
-        background-color: #eeeeee;
-        padding: 65px 63px;
-        margin-top: 70px;
-        padding-right: 100px;
-    }
-    
-    .headingstyle {
-        font-size: 65px;
-        color: #3a3a3a;
-        font-family: sans-serif;
-        font-weight: 500;
-    }
-    
-    .paragraphstyle {
-        color: #3a3a3a;
-        font-size: 20px;
-        padding: 9px 0;
-        line-height: 28px;
-    }
-    
-    .buttonstyle {
-        background-color: #428bca;
-        color: #fff;
-        border: none;
-        border-radius: 5px;
-        font-size: 14.5px;
-        padding: 9px 13px;
-        font-family: sans-serif;
-        font-weight: 100;
-        margin-top: 5px;
-    }
-    
-    .firstrow {
-        width: 100%;
-        margin-top: 32px;
-        border-top: 1px solid #9e9e9e33;
-    }
-    
-    .firstdiv {
-        width: calc(92% / 4);
-        margin-top: 13px;
-        border: 1px solid #9e9e9e4a;
-        border-collapse: separate;
-        border-spacing: 15px;
-        padding: 5px 5px;
-        float: left;
-    }
-    
-    .hstyle {
-        font-size: 28px;
-        font-family: sans-serif;
-        margin-top: 35px;
-        font-weight: 200;
-    }
-    
-    .imgstyle {
-        width: 100%;
-    }
-    
-    .rpadding {
-        margin-left: 0px;
-        margin-right: 20px;
-    }
-    
-    .lpadding {
-        margin-left: 20px;
-        margin-right: 0px;
-    }
-    
-    .rl1padding {
-        margin-left: 10px;
-        margin-right: 15px;
-    }
-    
-    .rl2padding {
-        margin-left: 14px;
-        margin-right: 10px;
-    }
-    
-    .innerfirstdiv {
-        padding: 20px 30px;
-    }
-    
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #fff;
+}
+
+.navigation {
+    background-color: #000000e6;
+    padding: 15px 0px;
+}
+
+.stylenavigation {
+    margin: 0 auto;
+    width: 91%;
+}
+
+.stylenavigation li {
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 18px;
+}
+
+.stylenavigation a {
+    text-decoration: none;
+    font-family: sans-serif;
+    color: #808080d9;
+}
+
+.navigationlink1 {
+    font-size: 18px;
+}
+
+.navigationlink2 {
+    font-size: 15px;
+}
+
+.navigationlink3 {
+    font-size: 15px;
+}
+
+.navigationlink4 {
+    font-size: 15px;
+}
+
+.middlediv {
+    background-color: #fff;
+}
+
+.innerdiv {
+    margin: 0 auto;
+    width: 90%;
+}
+
+.maindiv {
+    background-color: #eeeeee;
+    padding: 65px 63px;
+    margin-top: 70px;
+    padding-right: 100px;
+}
+
+.headingstyle {
+    font-size: 65px;
+    color: #3a3a3a;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.paragraphstyle {
+    color: #3a3a3a;
+    font-size: 20px;
+    padding: 9px 0;
+    line-height: 28px;
+}
+
+.buttonstyle {
+    background-color: #428bca;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 14.5px;
+    padding: 9px 13px;
+    font-family: sans-serif;
+    font-weight: 100;
+    margin-top: 5px;
+}
+
+.firstrow {
+    width: 100%;
+    margin-top: 32px;
+    border-top: 1px solid #9e9e9e33;
+}
+
+.firstdiv {
+    width: calc(92% / 4);
+    margin-top: 13px;
+    border: 1px solid #9e9e9e4a;
+    border-collapse: separate;
+    border-spacing: 15px;
+    padding: 5px 5px;
+    float: left;
+}
+
+.hstyle {
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-top: 35px;
+    font-weight: 200;
+}
+
+.imgstyle {
+    width: 100%;
+}
+
+.rpadding {
+    margin-left: 0px;
+    margin-right: 20px;
+}
+
+.lpadding {
+    margin-left: 20px;
+    margin-right: 0px;
+}
+
+.rl1padding {
+    margin-left: 10px;
+    margin-right: 15px;
+}
+
+.rl2padding {
+    margin-left: 14px;
+    margin-right: 10px;
+}
+
+.innerfirstdiv {
+    padding: 20px 30px;
+}
+
+.boxheading {
+    text-align: center;
+    font-size: 25px;
+    font-weight: 100;
+    font-family: sans-serif;
+    padding-bottom: 12px;
+}
+
+.boxparagraph {
+    text-align: center;
+    font-size: 15px;
+    font-family: sans-serif;
+    padding-left: 4px;
+    line-height: 20.2px;
+}
+
+.boxbuttonstyle {
+    padding: 21px 11px;
+    display: flex;
+}
+
+.boxbutton1 {
+    background-color: #428bca;
+    color: #fff;
+    border-radius: 5px;
+    border: #428bca;
+    margin-right: 6px;
+    width: 50%;
+}
+
+.boxbutton2 {
+    background-color: #fff;
+    color: black;
+    border-radius: 5px;
+    border: 1px solid #0000004f;
+    width: 50%;
+    padding: 9px 0;
+}
+
+.footer {
+    width: 100%;
+    clear: both;
+}
+
+.copyright {
+    padding-top: 50px;
+    padding-bottom: 80px;
+}
+
+.copyrighttext {
+    border-top: 1px solid #9e9e9e33;
+    margin-top: 23px;
+    padding-top: 56px;
+}
+
+@media only screen and (max-width:1026px) and (min-width:769px) {
     .boxheading {
         text-align: center;
         font-size: 25px;
@@ -146,333 +202,326 @@
         font-family: sans-serif;
         padding-bottom: 12px;
     }
-    
     .boxparagraph {
         text-align: center;
-        font-size: 15px;
+        font-size: 16px;
         font-family: sans-serif;
         padding-left: 4px;
         line-height: 20.2px;
     }
-    
-    .boxbuttonstyle {
-        padding: 10px 11px;
-    }
-    
     .boxbutton1 {
-        background-color: #428bca;
-        color: #fff;
-        border-radius: 5px;
-        border: #428bca;
-        padding: 9px 13px;
+        font-size: 14px;
     }
-    
     .boxbutton2 {
-        background-color: #fff;
-        color: black;
-        border-radius: 5px;
-        border: 1px solid #0000004f;
-        padding: 8px 11px;
+        font-size: 14px;
     }
-    
-    .footer {
-        width: 100%;
-        clear: both;
+}
+
+@media only screen and (max-width:1026px) {
+    .maindiv {
+        padding: 65px 23px;
+        margin-top: 35px;
     }
-    
+    .headingstyle {
+        font-size: 38px;
+    }
+    .paragraphstyle {
+        padding: 13px 0;
+    }
+    .rpadding {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .rl1padding {
+        margin-left: 72px;
+        margin-right: 0px;
+    }
+    .rl2padding {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .lpadding {
+        margin-left: 72px;
+        margin-right: 0px;
+    }
+    .firstdiv {
+        width: calc(92% / 2);
+        margin-bottom: 17px;
+    }
+    .navigation {
+        padding: 18px 0;
+    }
+    .navigationlink1 {
+        font-size: 20px;
+    }
+    .navigationlink2 {
+        font-size: 18px;
+    }
+    .navigationlink3 {
+        font-size: 18px;
+    }
+    .navigationlink4 {
+        font-size: 18px;
+    }
     .copyright {
-        padding-top: 50px;
+        padding-top: 14px;
         padding-bottom: 80px;
     }
-    
+}
+
+@media only screen and (max-width:1015px) {
+    .maindiv {
+        padding: 22px 23px;
+        margin-top: 35px;
+    }
+    .headingstyle {
+        font-size: 29px;
+    }
+    .paragraphstyle {
+        font-size: 20px;
+        padding: 9px 0;
+    }
+    .rpadding {
+        margin-left: 0px;
+        margin-right: 23px;
+    }
+    .rl1padding {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    .rl2padding {
+        margin-left: 0px;
+        margin-right: 23px;
+    }
+    .lpadding {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    /* .boxbutton1 {
+        margin-left: 29px;
+    } */
+    .firstdiv {
+        width: calc(92% / 2);
+        margin-bottom: 17px;
+    }
+    .navigation {
+        padding: 11px 0;
+    }
+    .navigationlink1 {
+        font-size: 16px;
+    }
+    .navigationlink2 {
+        font-size: 14px;
+    }
+    .navigationlink3 {
+        font-size: 14px;
+    }
+    .navigationlink4 {
+        font-size: 14px;
+    }
+    .copyright {
+        padding-top: 14px;
+        padding-bottom: 80px;
+    }
+}
+
+@media only screen and (max-width: 686px) and (min-width:580px) {
+    .maindiv {
+        padding: 22px 23px;
+        margin-top: 35px;
+    }
+    .headingstyle {
+        font-size: 29px;
+    }
+    .paragraphstyle {
+        font-size: 20px;
+        padding: 9px 0;
+    }
+    .rpadding {
+        margin-left: 0px;
+        margin-right: 23px;
+    }
+    .rl1padding {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    .rl2padding {
+        margin-left: 0px;
+        margin-right: 23px;
+    }
+    .lpadding {
+        margin-left: 25px;
+        margin-right: 0px;
+    }
+    .boxbutton1 {
+        margin-left: 2px;
+    }
+    .firstdiv {
+        width: calc(90% / 2);
+        margin-bottom: 17px;
+    }
+    .navigation {
+        padding: 11px 0;
+    }
+    .navigationlink1 {
+        font-size: 16px;
+    }
+    .navigationlink2 {
+        font-size: 14px;
+    }
+    .navigationlink3 {
+        font-size: 14px;
+    }
+    .navigationlink4 {
+        font-size: 14px;
+    }
+    .copyright {
+        padding-top: 14px;
+        padding-bottom: 80px;
+    }
+    .boxbuttonstyle {
+        padding: 21px 1px;
+        display: flex;
+    }
+}
+
+@media only screen and (max-width: 427px) and (min-width: 378px) {
+    .boxheading {
+        font-size: 25px;
+    }
+    .boxparagraph {
+        font-size: 16px;
+    }
+}
+
+@media only screen and (max-width:580px) {
+    .maindiv {
+        padding: 53px 21px;
+        margin-top: 35px;
+    }
+    .headingstyle {
+        font-size: 29px;
+    }
+    .paragraphstyle {
+        font-size: 20px;
+        padding: 9px 0;
+        line-height: 28px;
+    }
+    .firstdiv {
+        display: block;
+        width: 100%;
+        margin: 12px auto;
+    }
+    .navigation {
+        padding: 9px 0px;
+    }
+    .navigationlink1 {
+        font-size: 16px;
+    }
+    .navigationlink2 {
+        font-size: 14px;
+    }
+    .navigationlink3 {
+        font-size: 14px;
+    }
+    .navigationlink4 {
+        font-size: 14px;
+    }
+    .copyright {
+        padding-top: 5px;
+        padding-bottom: 46px;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    .headingstyle {
+        font-size: 23px;
+    }
+    .paragraphstyle {
+        font-size: 17px;
+    }
+    .boxparagraph {
+        font-size: 16px;
+    }
+    .navigation {
+        padding: 9px 0px;
+    }
+    .navigationlink1 {
+        font-size: 15px;
+    }
+    .navigationlink2 {
+        font-size: 13px;
+    }
+    .navigationlink3 {
+        font-size: 13px;
+    }
+    .navigationlink4 {
+        font-size: 13px;
+    }
+    .copyright {
+        padding-top: 5px;
+        padding-bottom: 46px;
+    }
+    .firstdiv {
+        display: block;
+        width: 100%;
+        margin: 12px auto;
+    }
+    .maindiv {
+        margin-top: 30px;
+    }
+    .hstyle {
+        font-size: 26px;
+        font-family: sans-serif;
+        margin-top: 24px;
+        font-weight: 200;
+    }
+}
+
+@media only screen and (max-width:321px) {
+    .maindiv {
+        padding: 22px 23px;
+        margin-top: 35px;
+    }
+    .headingstyle {
+        font-size: 25px;
+    }
+    .paragraphstyle {
+        font-size: 17px;
+    }
+    .navigation {
+        padding: 11px 0px;
+    }
+    .navigationlink1 {
+        font-size: 14px;
+    }
+    .navigationlink2 {
+        font-size: 12px;
+    }
+    .navigationlink3 {
+        font-size: 12px;
+    }
+    .navigationlink4 {
+        font-size: 12px;
+    }
+    .copyright {
+        padding-top: 5px;
+        padding-bottom: 46px;
+    }
+    .firstdiv {
+        display: block;
+        width: 100%;
+        margin: 12px auto;
+    }
+    .boxbutton1 {
+        margin-left: 15px;
+    }
+    .hstyle {
+        font-size: 26px;
+        margin-top: 15px;
+    }
     .copyrighttext {
-        border-top: 1px solid #9e9e9e33;
         margin-top: 23px;
-        padding-top: 56px;
+        padding-top: 36px;
     }
-    
-    @media only screen and (max-width:1026px) and (min-width:769px) {
-        .buttonstyle {
-            padding: 13px 15px;
-            font-size: 18px;
-        }
-        .boxheading {
-            text-align: center;
-            font-size: 31px;
-            font-weight: 100;
-            font-family: sans-serif;
-            padding-bottom: 12px;
-        }
-        .boxparagraph {
-            text-align: center;
-            font-size: 19px;
-            font-family: sans-serif;
-            padding-left: 4px;
-            line-height: 20.2px;
-        }
-        .boxbutton1 {
-            margin-left: 60px;
-            padding: 11px 15px;
-            font-size: 16px;
-        }
-        .boxbutton2 {
-            padding: 11px 15px;
-            font-size: 16px;
-        }
-    }
-    
-    @media only screen and (max-width:1026px) {
-        .maindiv {
-            padding: 65px 23px;
-            margin-top: 35px;
-        }
-        .headingstyle {
-            font-size: 38px;
-        }
-        .paragraphstyle {
-            font-size: 24px;
-            padding: 13px 0;
-        }
-        .rpadding {
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-        .rl1padding {
-            margin-left: 72px;
-            margin-right: 0px;
-        }
-        .rl2padding {
-            margin-left: 0px;
-            margin-right: 0px;
-        }
-        .lpadding {
-            margin-left: 72px;
-            margin-right: 0px;
-        }
-        .firstdiv {
-            width: calc(92% / 2);
-            margin-bottom: 17px;
-        }
-        .navigation {
-            padding: 18px 0;
-        }
-        .navigationlink1 {
-            font-size: 20px;
-        }
-        .navigationlink2 {
-            font-size: 18px;
-        }
-        .navigationlink3 {
-            font-size: 18px;
-        }
-        .navigationlink4 {
-            font-size: 18px;
-        }
-        .copyright {
-            padding-top: 14px;
-            padding-bottom: 80px;
-        }
-    }
-    
-    @media only screen and (max-width:768px) {
-        .maindiv {
-            padding: 22px 23px;
-            margin-top: 35px;
-        }
-        .headingstyle {
-            font-size: 29px;
-        }
-        .paragraphstyle {
-            font-size: 20px;
-            padding: 9px 0;
-        }
-        .rpadding {
-            margin-left: 0px;
-            margin-right: 23px;
-        }
-        .rl1padding {
-            margin-left: 25px;
-            margin-right: 0px;
-        }
-        .rl2padding {
-            margin-left: 0px;
-            margin-right: 23px;
-        }
-        .lpadding {
-            margin-left: 25px;
-            margin-right: 0px;
-        }
-        .boxbutton1 {
-            margin-left: 29px;
-        }
-        .firstdiv {
-            width: calc(92% / 2);
-            margin-bottom: 17px;
-        }
-        .navigation {
-            padding: 11px 0;
-        }
-        .navigationlink1 {
-            font-size: 16px;
-        }
-        .navigationlink2 {
-            font-size: 14px;
-        }
-        .navigationlink3 {
-            font-size: 14px;
-        }
-        .navigationlink4 {
-            font-size: 14px;
-        }
-        .copyright {
-            padding-top: 14px;
-            padding-bottom: 80px;
-        }
-    }
-    
-    @media only screen and (max-width: 427px) and (min-width: 378px) {
-        .boxheading {
-            font-size: 25px;
-        }
-        .boxparagraph {
-            font-size: 16px;
-        }
-    }
-    
-    @media only screen and (max-width:427px) {
-        .maindiv {
-            padding: 53px 21px;
-            margin-top: 35px;
-        }
-        .headingstyle {
-            font-size: 29px;
-        }
-        .paragraphstyle {
-            font-size: 20px;
-            padding: 9px 0;
-            line-height: 28px;
-        }
-        .firstdiv {
-            display: block;
-            width: 100%;
-            margin: 12px auto;
-        }
-        .boxbutton1 {
-            margin-left: 57px;
-        }
-        .navigation {
-            padding: 9px 0px;
-        }
-        .navigationlink1 {
-            font-size: 16px;
-        }
-        .navigationlink2 {
-            font-size: 14px;
-        }
-        .navigationlink3 {
-            font-size: 14px;
-        }
-        .navigationlink4 {
-            font-size: 14px;
-        }
-        .copyright {
-            padding-top: 5px;
-            padding-bottom: 46px;
-        }
-    }
-    
-    @media only screen and (max-width:376px) {
-        .headingstyle {
-            font-size: 23px;
-        }
-        .paragraphstyle {
-            font-size: 17px;
-        }
-        .boxparagraph {
-            font-size: 16px;
-        }
-        .boxbutton1 {
-            margin-left: 36px;
-        }
-        .navigation {
-            padding: 9px 0px;
-        }
-        .navigationlink1 {
-            font-size: 15px;
-        }
-        .navigationlink2 {
-            font-size: 13px;
-        }
-        .navigationlink3 {
-            font-size: 13px;
-        }
-        .navigationlink4 {
-            font-size: 13px;
-        }
-        .copyright {
-            padding-top: 5px;
-            padding-bottom: 46px;
-        }
-        .firstdiv {
-            display: block;
-            width: 100%;
-            margin: 12px auto;
-        }
-        .maindiv {
-            margin-top: 30px;
-        }
-        .hstyle {
-            font-size: 26px;
-            font-family: sans-serif;
-            margin-top: 24px;
-            font-weight: 200;
-        }
-    }
-    
-    @media only screen and (max-width:321px) {
-        .maindiv {
-            padding: 22px 23px;
-            margin-top: 35px;
-        }
-        .headingstyle {
-            font-size: 25px;
-        }
-        .paragraphstyle {
-            font-size: 17px;
-        }
-        .navigation {
-            padding: 11px 0px;
-        }
-        .navigationlink1 {
-            font-size: 14px;
-        }
-        .navigationlink2 {
-            font-size: 12px;
-        }
-        .navigationlink3 {
-            font-size: 12px;
-        }
-        .navigationlink4 {
-            font-size: 12px;
-        }
-        .copyright {
-            padding-top: 5px;
-            padding-bottom: 46px;
-        }
-        .firstdiv {
-            display: block;
-            width: 100%;
-            margin: 12px auto;
-        }
-        .boxbutton1 {
-            margin-left: 15px;
-        }
-        .hstyle {
-            font-size: 26px;
-            margin-top: 15px;
-        }
-        .copyrighttext {
-            margin-top: 23px;
-            padding-top: 36px;
-        }
-    }
+}
