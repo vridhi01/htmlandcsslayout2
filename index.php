@@ -8,12 +8,14 @@
       <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
    </head>
    <body>
-      <div class="navigation">
+   <div class="navigation">
          <div class="stylenavigation">
+            <ul>
             <li><a class="navigationlink1" href="#">Layout 3</a></li>
             <li><a class="navigationlink2" href="#">About</a></li>
             <li><a class="navigationlink3" href="#">Services</a></li>
             <li><a class="navigationlink4" href="#">Contact</a></li>
+            </ul>
          </div>
       </div>
       <div class="middlediv">
@@ -26,6 +28,7 @@
                </p>
                <button type="button" class="buttonstyle"  > Call to action! </button>
             </div>
+
             <div class="firstrow">
                <h2 class="hstyle"> Latest Features</h2>
                <div class="firstdiv rpadding">
@@ -33,8 +36,10 @@
                   <div class="innerfirstdiv">
                      <h2 class="boxheading">Feature Label</h2>
                      <p class="boxparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class="boxbutton1">Buy Now! </button>
-                     <button class="boxbutton2">More info</button>
+                     <div class="boxbuttonstyle"> 
+                        <button class="boxbutton1">Buy Now! </button>
+                        <button class="boxbutton2">More info</button>
+                     </div>
                   </div>
                </div>
                <div class="firstdiv rl1padding">
@@ -42,8 +47,10 @@
                   <div class="innerfirstdiv">
                      <h2 class="boxheading">Feature Label</h2>
                      <p class="boxparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class="boxbutton1">Buy Now! </button>
-                     <button class="boxbutton2">More info</button>
+                     <div class="boxbuttonstyle"> 
+                        <button class="boxbutton1">Buy Now! </button>
+                        <button class="boxbutton2">More info</button>
+                     </div>
                   </div>
                </div>
                <div class="firstdiv rl2padding">
@@ -51,8 +58,10 @@
                   <div class="innerfirstdiv">
                      <h2 class="boxheading">Feature Label</h2>
                      <p class="boxparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class="boxbutton1">Buy Now! </button>
-                     <button class="boxbutton2">More info</button>
+                     <div class="boxbuttonstyle"> 
+                        <button class="boxbutton1">Buy Now! </button>
+                        <button class="boxbutton2">More info</button>
+                     </div>
                   </div>
                </div>
                <div class="firstdiv lpadding">
@@ -60,8 +69,10 @@
                   <div class="innerfirstdiv">
                      <h2 class="boxheading">Feature Label</h2>
                      <p class="boxparagraph">Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
-                     <button class="boxbutton1">Buy Now! </button>
-                     <button class="boxbutton2">More info</button>
+                     <div class="boxbuttonstyle"> 
+                        <button class="boxbutton1">Buy Now! </button>
+                        <button class="boxbutton2">More info</button>
+                     </div>
                   </div>
                </div>
                </div>
